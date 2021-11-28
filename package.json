@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --no-source-maps --public-url ./",
-    "heroku-postbuild": "parcel build src/index.html"
+    "build": "parcel build src/index.html --no-source-maps --public-url ./"
   },
   "type": "module",
   "browserslist": "last 2 version",
